@@ -28,7 +28,7 @@ const Home = () => {
             className={`text-center sm:text-left`}
           >
             <div className="text-sm mb-2">Hello world</div>
-            <div className={`text-3xl mb-1 text-orange font-bold ${showAnimation ? 'animate-pulse' : ''}`}>Rahardian Yudhis</div>
+            <div className={`text-3xl mb-1 text-purple font-bold ${showAnimation ? 'animate-pulse' : ''}`}>Rahardian Yudhis</div>
             <Typical
               steps={[
                 'Web Profile',
@@ -44,21 +44,21 @@ const Home = () => {
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="mr-4 text-orange "
+                className="mr-4 text-purple "
               >
                 <FaInstagram size={30} />
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="mr-4 text-orange "
+                className="mr-4 text-purple "
               >
                 <FaGithub size={30} />
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="mr-4 text-orange"
+                className="mr-4 text-purple"
               >
                 <FaFacebook size={30} />
               </motion.button>

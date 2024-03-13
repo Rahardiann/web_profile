@@ -20,7 +20,7 @@ const Aboutme = () => {
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="border bg-black border-orange rounded-lg p-4 flex items-center pb-24"
+            className="border bg-black border-purple rounded-lg p-4 flex items-center pb-24"
           >
             <div className="flex-shrink-0 mr-4">
               <img
@@ -47,7 +47,7 @@ const Aboutme = () => {
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="border bg-black border-orange rounded-lg p-4 mt-8 flex items-center flex-col"
+            className="border bg-black border-blue rounded-lg p-4 mt-8 flex items-center flex-col"
           >
             <h2 className="text-xl text-hijau mx-auto font-bold ">My Skill</h2>
             <hr className="w-full border-b border-hijau mt-4"></hr>
