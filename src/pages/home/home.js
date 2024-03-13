@@ -28,7 +28,7 @@ const Home = () => {
             className={`text-center sm:text-left`}
           >
             <div className="text-sm mb-2">Hello world</div>
-            <div className={`text-3xl mb-1 text-purple font-bold ${showAnimation ? 'animate-pulse' : ''}`}>Rahardian Yudhis</div>
+            <div className={`text-3xl mb-1 text-purple font-bold ${showAnimation ? 'animate-pulse' : ''}`}>Raek.ind</div>
             <Typical
               steps={[
                 'Web Profile',
