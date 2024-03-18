@@ -3,7 +3,7 @@ import Navbar from '../navbar/navbar';
 import Typical from 'react-typical';
 import { FaInstagram, FaGithub, FaFacebook } from 'react-icons/fa';
 import { motion } from "framer-motion";
-import circleImage from "../../assets/profil2.jpeg";
+import circleImage from "../../assets/logoraek.png";
 
 const Home = () => {
   const [showAnimation, setShowAnimation] = useState(true);
